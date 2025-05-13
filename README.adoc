@@ -45,7 +45,7 @@ Start easily a script with variables taken from command line, with default value
 
 ### How to use it ?
 
-Load this file into your script with ``` ./start_script.sh```
+Load this file into your script with ```./start_script.sh```
 
 Then use it in 3 steps:
 
