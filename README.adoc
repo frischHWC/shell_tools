@@ -11,7 +11,8 @@ image:images/logger_examples.png[Examples of logged lines on a shell]
 
 ### How to use it ?
 
-Load this file into your script with . ./logger.sh
+Load this file into your script with ```. ./logger.sh```
+
 Then use it instead of echo like this:
 
         logger info "Beginning of my application"
@@ -25,7 +26,6 @@ The possible colors are : blue, white, cyan, magenta, red, green, yellow
 
 Argument 2: Text to print (where you can specify some part to be bold or underlined)
 
-Examples: 
 Add a word to be in bold: 
         
         "this word is #bold WordInBold #end_bold but not this one"
@@ -45,7 +45,8 @@ Start easily a script with variables taken from command line, with default value
 
 ### How to use it ?
 
-Load this file into your script with . ./start_script.sh
+Load this file into your script with ``` ./start_script.sh```
+
 Then use it in 3 steps:
 
 1. Add a description to your script:
@@ -90,7 +91,7 @@ Example:
 
         ./execute_to_cluster.sh --hosts-file=hosts --script-name=script.sh
 
-_Note: Provide a user (--node-user) and a password (--node-password) or ssh-key (--ssh-key) to connect to hosts if needed.
+_Note: Provide a user (--node-user) and a password (--node-password) or ssh-key (--ssh-key) to connect to hosts if needed._
                                                                                                                          
 It creates a named, according to first parameter or default to timestamped, directory for each execution.                 
 If set, it archives results at the end, along with the script executed, and can print or not the result in real time.
